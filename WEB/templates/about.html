@@ -1,0 +1,9 @@
+{% extend 'base.html' %}
+{% block title % }<title>About page</title>
+{% block body%}
+<h1>About page</h1>
+
+{% for row in data%}
+<p>{{row}}</p>
+{%endfor%}
+{%endblock%}
